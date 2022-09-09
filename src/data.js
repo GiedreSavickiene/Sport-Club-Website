@@ -22,8 +22,8 @@ export const links = [
         path: '/trainers'
     },
     {
-        name: "Contacts",
-        path: '/contacts'
+        name: "Contact",
+        path: '/contact'
     }
 
 
