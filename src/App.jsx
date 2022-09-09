@@ -1,3 +1,5 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
 import React from 'react'
 import Home from './pages/home/Home'
 import About from './pages/about/About'
@@ -6,11 +8,13 @@ import Galery from './pages/galery/Galery'
 import NotFound from './pages/notFound/NotFound'
 import Plans from './pages/plans/Plans'
 import Trainers from './pages/trainers/Trainers'
+import NavBar from './components/NavBar'
 
 
 const App = () => {
   return (
-    <div>
+    <BrowserRouter>
+    <NavBar/>
       <Home/>
       <About/>
       <Contact/>
@@ -18,9 +22,9 @@ const App = () => {
       <Plans/>
       <Trainers/>
       <NotFound/>
+  </BrowserRouter>
 
-
-    </div>
+    
   )
 }
 
