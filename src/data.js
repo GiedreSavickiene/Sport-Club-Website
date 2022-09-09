@@ -20,7 +20,12 @@ export const links = [
     {
         name: "Trainers",
         path: '/trainers'
+    },
+    {
+        name: "Contacts",
+        path: '/contacts'
     }
+
 
 
 ]
